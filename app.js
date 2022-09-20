@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 
-const { etrategiasAutenticacao } = require('./src/usuarios')
+const { estrategiasAutenticacao } = require('./src/usuarios');
 
 app.use(
   bodyParser.urlencoded({
